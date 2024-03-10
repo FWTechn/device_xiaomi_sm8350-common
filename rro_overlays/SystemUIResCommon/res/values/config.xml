@@ -31,10 +31,10 @@
     <bool name="config_vibrateOnIconAnimation">true</bool>
 
     <!-- Preferred max refresh rate at AOD & Ambient Display, if supported by the display. -->
-    <integer name="config_aodMaxRefreshRate">120</integer>
+    <integer name="config_aodMaxRefreshRate">60</integer>
 
     <!-- Preferred max refresh rate at keyguard, if supported by the display. -->
-    <integer name="config_keyguardMaxRefreshRate">120</integer>
+    <integer name="config_keyguardMaxRefreshRate">60</integer>
 
     <!-- FPSInfoService FPS node file path -->
     <string name="config_fpsInfoSysNode" translatable="false">/sys/class/drm/sde-crtc-0/measured_fps</string>
